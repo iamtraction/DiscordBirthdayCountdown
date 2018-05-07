@@ -1,0 +1,20 @@
+main {
+  display: flex;
+  position: relative;
+  min-height: calc(100vh - 76px);
+  align-items: center;
+  justify-content: space-around;
+}
+
+main .container {
+  min-width: 300px;
+  background-color: #23272A;
+  border-radius: 8px;
+  box-shadow: 0 9px 15px 0 rgba(0,0,0,.1);
+  padding: 20px;
+  text-align: center;
+}
+
+main .container div.event {
+  color: #7289DA;
+}
