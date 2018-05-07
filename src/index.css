@@ -1,0 +1,22 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: #18191C;
+  color: #AAA;
+  font-family: 'Whitney', 'Helvetica Neue', 'Helvetica', 'Open Sans', Arial, sans-serif;
+  height: 100vh;
+  margin: 0;
+  overflow-x: hidden;
+  width: 100vw;
+}
+
+a {
+  color: #DDD;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #F5F5F5;
+}
