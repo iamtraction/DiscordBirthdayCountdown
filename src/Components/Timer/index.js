@@ -5,7 +5,7 @@ class Timer extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      birthday: new Date(`5/13/${new Date().getFullYear()} PDT`),
+      birthday: new Date(`5/13/${new Date().getFullYear()}`),
       date: new Date(),
       days: 365,
       hours: 24,
@@ -20,7 +20,7 @@ class Timer extends React.Component {
 
     if (remaining < 0) {
       this.setState({
-        birthday: new Date(`5/13/${new Date().getFullYear() + 1} PDT`)
+        birthday: new Date(`5/13/${new Date().getFullYear() + 1}`)
       });
     }
 
