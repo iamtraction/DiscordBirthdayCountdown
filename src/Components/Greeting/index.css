@@ -1,0 +1,15 @@
+main .container.greeting {
+  margin: 10px;
+  background-color: white !important;
+  font-size: 1.5em;
+  color: #7289DA;
+}
+
+main .container .greeting {
+  font-weight: bold;
+}
+
+main .container .image img {
+  width: 100%;
+  max-width: 500px;
+}
