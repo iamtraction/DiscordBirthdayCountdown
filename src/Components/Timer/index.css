@@ -1,0 +1,20 @@
+#timer {
+  display: flex;
+  justify-content: space-between;
+}
+
+#timer div.section {
+  padding: 20px;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+#timer span.counter,
+#timer span.title {
+  display: block;
+}
+
+#timer span.counter {
+  padding: 15px;
+  color: #CCC;
+}
