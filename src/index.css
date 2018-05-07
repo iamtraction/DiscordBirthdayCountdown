@@ -3,8 +3,8 @@
 }
 
 html, body {
-  background-color: #18191C;
-  color: #AAA;
+  background-color: #7289DA;
+  color: white;
   font-family: 'Whitney', 'Helvetica Neue', 'Helvetica', 'Open Sans', Arial, sans-serif;
   height: 100vh;
   margin: 0;
@@ -13,10 +13,10 @@ html, body {
 }
 
 a {
-  color: #DDD;
+  color: white;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #F5F5F5;
+  color: black;
 }

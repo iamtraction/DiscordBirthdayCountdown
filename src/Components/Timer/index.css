@@ -14,7 +14,11 @@
   display: block;
 }
 
+#timer span.title {
+  color: #555;
+}
+
 #timer span.counter {
   padding: 15px;
-  color: #CCC;
+  color: #111;
 }

@@ -8,7 +8,7 @@ main {
 
 main .container {
   min-width: 300px;
-  background-color: #23272A;
+  background-color: white;
   border-radius: 8px;
   box-shadow: 0 9px 15px 0 rgba(0,0,0,.1);
   padding: 20px;
