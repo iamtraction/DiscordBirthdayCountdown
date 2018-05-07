@@ -3,6 +3,10 @@
 }
 
 html, body {
+  background-image: url('https://i.imgur.com/EmbjO8V.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   background-color: #7289DA;
   color: white;
   font-family: 'Whitney', 'Helvetica Neue', 'Helvetica', 'Open Sans', Arial, sans-serif;
