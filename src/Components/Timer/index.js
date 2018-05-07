@@ -18,6 +18,12 @@ class Timer extends React.Component {
     let date = new Date();
     let remaining = this.state.birthday - date;
 
+    if (remaining < 0) {
+      this.setState({
+        birthday: new Date(`5/13/${new Date().getFullYear() + 1} PDT`)
+      });
+    }
+
     this.setState({
       date: date,
       days: Math.floor(remaining / (1000 * 60 * 60 * 24)),
