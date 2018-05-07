@@ -13,6 +13,10 @@ class Main extends React.Component {
   }
 
   componentWillMount() {
+    this.checkBirthday();
+  }
+
+  checkBirthday() {
     let currentDate = new Date().toDateString();
     let eventDate = new Date(`5/13/${new Date().getFullYear()}`).toDateString();
 
@@ -21,6 +25,17 @@ class Main extends React.Component {
         isToday: true
       });
     }
+  }
+
+  componentDidMount() {
+    this.timerID = setInterval(
+      () => this.checkBirthday(),
+      1000
+    );
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.timerID);
   }
 
   render() {
