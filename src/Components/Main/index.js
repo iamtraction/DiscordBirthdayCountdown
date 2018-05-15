@@ -6,9 +6,17 @@ import './index.css';
 class Main extends React.Component {
   constructor(props) {
     super(props);
+
+    let currentDate = new Date();
+    let age = currentDate.getFullYear() - 2015;
+    let monthDifference = currentDate.getMonth() - 4;
+    if (monthDifference > 0 || (monthDifference === 0 && currentDate.getDate() > 13)) {
+      age++;
+    }
+
     this.state = {
       isToday: false,
-      year: new Date().getFullYear() - 2015
+      year: age
     };
   }
 
