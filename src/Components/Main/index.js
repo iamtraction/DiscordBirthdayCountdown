@@ -17,10 +17,10 @@ class Main extends React.Component {
   }
 
   checkBirthday() {
-    let currentDate = new Date().toDateString();
-    let eventDate = new Date(`5/13/${new Date().getFullYear()}`).toDateString();
+    let currentDate = new Date();
+    let eventDate = new Date(`5/13/${new Date().getFullYear()}`);
 
-    if (currentDate === eventDate) {
+    if (currentDate.toDateString() === eventDate.toDateString()) {
       this.setState({
         isToday: true
       });
